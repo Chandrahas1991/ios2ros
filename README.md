@@ -1,6 +1,6 @@
-**This code converts image data and imu data from IOS devices to rosbag.**
+**This code converts image data and imu data from IOS devices to ros message.**
 
-1. add raw image folder, image_time file, imu_data file at /data/initialization/
+1. add raw image folder, image_time file, imu_data file at /data/
 
 2. cd raw image folder, then
 

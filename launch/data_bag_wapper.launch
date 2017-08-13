@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="data_bag_wapper" type="data_bag_wapper" name="data_bag_wapper" output="screen">
+        <remap from="~image_raw" to="/camera/image"/> 
+        <param name="data_dir" type="string" value="$(find data_bag_wapper)/data/initialization/" />
+    </node>
+</launch>

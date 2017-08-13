@@ -1,6 +1,0 @@
-<launch>
-    <node pkg="ios2ros" type="ios2ros" name="ios2ros" output="screen">
-        <remap from="~image_raw" to="/camera/image"/> 
-        <param name="data_dir" type="string" value="$(find ios2ros)/data/initialization/" />
-    </node>
-</launch>

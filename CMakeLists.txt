@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(ios2ros)
+project(data_bag_wapper)
 
 set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-std=c++11")
@@ -25,7 +25,7 @@ include_directories(
 catkin_package(
     )
 
-add_executable(ios2ros
-    src/ios2ros_node.cpp)
+add_executable(data_bag_wapper
+    src/data_bag_wapper_node.cpp)
 
-target_link_libraries(ios2ros ${catkin_LIBRARIES} ${OpenCV_LIBS})
+target_link_libraries(data_bag_wapper ${catkin_LIBRARIES} ${OpenCV_LIBS})

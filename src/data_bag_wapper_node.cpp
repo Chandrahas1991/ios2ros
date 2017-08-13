@@ -40,7 +40,7 @@ queue<double> imu_iphone_time_buf;
 
 int main(int argc, char **argv)
 {
-    ros::init(argc, argv, "ios2ros");
+    ros::init(argc, argv, "data_bag_wapper");
     ros::NodeHandle n("~");
 
     //publish iphone sensor data

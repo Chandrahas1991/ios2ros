@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>ios2ros</name>
+  <name>data_bag_wapper</name>
   <version>0.0.0</version>
-  <description>The ios2ros package</description>
+  <description>The data_bag_wapper package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
